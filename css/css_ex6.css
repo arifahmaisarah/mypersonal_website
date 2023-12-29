@@ -1,0 +1,63 @@
+table
+{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+body
+{
+	font-family: tahoma;
+	font-size: 20px;
+	background-color: cornsilk;
+}
+
+th
+{
+	text-align: center;
+	background-color: lightpink;
+	color: red;
+
+}
+
+td
+{
+	width: 70%;
+	font-family: georgia;
+	text-align: center;
+}
+
+tr
+{
+	background-color: black;
+	height: 100px;
+}
+
+tr:nth-child(even)
+{
+	background-color: white;
+}
+
+			a:link 
+			{
+				color: hotpink;
+				background-color: transparent;
+				text-decoration: none;
+			}
+			a:visited
+			{
+				color: hotpink;
+				background-color: transparent;
+				text-decoration: none;
+			}
+			a:hover
+			{
+				color: chocolate;
+				background-color: none;
+				text-decoration: underline;
+			}
+			a:active
+			{
+				color: blueviolet;
+				background-color: transparent;
+				text-decoration: none;
+			}
